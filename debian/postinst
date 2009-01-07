@@ -2,5 +2,9 @@
 
 if [ -f /etc/rcS.d/S37init-ramfs ]; then
 	rm /etc/rcS.d/S37init-ramfs
+fi
+
+if [ -f /etc/init.d/init-ramfs ]; then
 	ln -s /etc/init.d/init-ramfs /etc/rcS.d/S37init-ramfs
 fi
+
