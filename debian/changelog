@@ -1,0 +1,6 @@
+neuroslink-system-tools (1.0) intrepid; urgency=low
+
+  * Initial release.
+  * Includes initial switch audio output scripts
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Tue, 06 Jan 2009 23:24:42 -0600

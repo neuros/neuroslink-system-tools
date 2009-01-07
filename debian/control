@@ -1,0 +1,14 @@
+Source: neuroslink-system-tools
+Section: internet
+Priority: optional
+Maintainer: Tom Bruno <tbruno@neurostechnology.com>
+Build-Depends: debhelper (>= 5.0.0), cdbs
+Standards-Version: 3.7.3
+
+Package: neuroslink-system-tools
+Architecture: i386
+Depends: bash
+Recommends:
+Description: System configuration scripts for controlling settings 
+ Various scripts to modify the configuration of the system
+
