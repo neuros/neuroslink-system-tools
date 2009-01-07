@@ -1,1 +1,6 @@
+#!/bin/sh
 
+if [ -f /etc/rcS.d/S37init-ramfs ]; then
+	rm /etc/rcS.d/S37init-ramfs
+	ln -s /etc/init.d/init-ramfs /etc/rcS.d/S37init-ramfs
+fi
