@@ -3,6 +3,19 @@
 # Used to initialize and mount the ramfs filesystems used to reduce writing to the usb key.
 
 if [ ! -d /tmp/log ]; then
- 	mkdir /tmp/log
+ 	mkdir -p /tmp/log
+ 	mkdir -p /tmp/log/apparmor
+ 	mkdir -p /tmp/log/apt
+ 	mkdir -p /tmp/log/ConsoleKit
+ 	mkdir -p /tmp/log/cups
+ 	mkdir -p /tmp/log/gdm
+ 	mkdir -p /tmp/log/fsck
+ 	mkdir -p /tmp/log/installer
+ 	mkdir -p /tmp/log/mysql
+ 	mkdir -p /tmp/log/mythtv
+ 	mkdir -p /tmp/log/news
+ 	mkdir -p /tmp/log/ntpstats
+ 	mkdir -p /tmp/log/samba
+ 	mkdir -p /tmp/log/unattended-upgrades
 fi
 
