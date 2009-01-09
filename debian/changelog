@@ -1,3 +1,10 @@
+neuroslink-system-tools (1.02) intrepid; urgency=low
+
+  * Fix permissons on scripts
+  * Add neuros-upgrader script for automated upgrade
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Thu, 08 Jan 2009 19:45:57 -0600
+
 neuroslink-system-tools (1.01) intrepid; urgency=low
 
   * Include scripts to setup tmpfs and logging on ramfs
