@@ -1,6 +1,6 @@
 #!/bin/sh
 
-asoundconf set-default-card HDMI
+asoundconf set-default-card SB
 
 
 #Mplayer config

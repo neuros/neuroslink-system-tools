@@ -1,3 +1,9 @@
+neuroslink-system-tools (1.04) intrepid; urgency=low
+
+  * Fix surround script to use SB card not HDMI
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Fri, 09 Jan 2009 12:43:46 -0600
+
 neuroslink-system-tools (1.03) intrepid; urgency=low
 
   * Add mythtv startup script to avoid ATI corruption on fullscreen mythtv fronend
