@@ -1,0 +1,23 @@
+#!/bin/bash
+### Determine if Firefox is running and kill it on confirmation
+if ps ax | grep -v grep | grep firefox > /dev/null
+then
+  ### Firefox is running - prompt then kill Firefox
+  zenity --question --title="Decrease font size" --text="To increase your font sizes, we must first close your browser.  Close Firefox now?"
+  CONFIRMFIREFOXCLOSE=$?
+  if [ "$CONFIRMFIREFOXCLOSE" = "0" ]; then
+    ### User confirmed - kill Firefox
+    echo "Killing Firefox"
+    killall firefox
+  else
+    ### User canceled - stop script
+    echo "Aborting"
+    exit 0;
+  fi
+fi
+
+
+### Decrease GNOME DPI
+CURRENTDPI=`gconftool --get /desktop/gnome/font_rendering/dpi`
+let "CURRENTDPI -= 16"
+gconftool --type float --set /desktop/gnome/font_rendering/dpi "$CURRENTDPI"

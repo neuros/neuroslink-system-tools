@@ -1,3 +1,9 @@
+neuroslink-system-tools (1.06) intrepid; urgency=low
+
+  * Add increase/decrease gnome dpi scripts
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Tue, 13 Jan 2009 11:46:57 -0600
+
 neuroslink-system-tools (1.05) intrepid; urgency=low
 
   * Fix mplayer config file because used > instead of >>
