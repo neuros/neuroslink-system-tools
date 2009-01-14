@@ -9,6 +9,7 @@ then
     ### User confirmed - kill Firefox
     echo "Killing Firefox"
     killall firefox
+    sleep 4
   else
     ### User canceled - stop script
     echo "Aborting"

@@ -2,4 +2,5 @@ audio/* /usr/bin
 video/* /usr/bin
 base/init-ramfs /etc/init.d
 base/neuros-upgrader.sh /usr/sbin
+base/neuros-user-upgrader.sh /usr/bin
 
