@@ -1,3 +1,12 @@
+neuroslink-system-tools (1.10) intrepid; urgency=low
+
+  * Change package to multi arch
+  * Add script for GUI display of NeurosLink version
+  * Require python 2.5 or newer
+  * Add .desktop entries for applications
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Wed, 11 Feb 2009 22:07:37 -0600
+
 neuroslink-system-tools (1.09) intrepid; urgency=low
 
   * Fix some cases where Upgrade will not work if Firefox is not open.

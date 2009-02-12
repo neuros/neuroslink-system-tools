@@ -6,8 +6,8 @@ Build-Depends: debhelper (>= 5.0.0), cdbs
 Standards-Version: 3.7.3
 
 Package: neuroslink-system-tools
-Architecture: i386
-Depends: bash
+Architecture: all
+Depends: bash, python (>= 2.5.0)
 Recommends:
 Description: System configuration scripts for controlling settings 
  Various scripts to modify the configuration of the system
