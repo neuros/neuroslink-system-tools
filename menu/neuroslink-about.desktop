@@ -6,7 +6,6 @@ Type=Application
 Terminal=false
 Icon[en_US]=gnome-panel-launcher
 Name[en_US]=About NeurosLink
-Categories=GNOME;Application;Core;
 Exec=neuroslink-version.py
 Icon=/usr/share/pixmaps/synaptic.png
 Comment[en_US]=System Information and Details

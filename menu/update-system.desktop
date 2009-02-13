@@ -6,7 +6,6 @@ Type=Application
 Terminal=false
 Icon[en_US]=gnome-panel-launcher
 Name[en_US]=Update System
-Categories=GNOME;Application;Core;
 Exec=gksu "gnome-terminal -x 
 neuros-upgrader.sh"
 Icon=/usr/share/pixmaps/synaptic.png
