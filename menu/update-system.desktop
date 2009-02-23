@@ -6,8 +6,7 @@ Type=Application
 Terminal=false
 Icon[en_US]=gnome-panel-launcher
 Name[en_US]=Update System
-Exec=gksu "gnome-terminal -x 
-neuros-upgrader.sh"
+Exec=gksu "gnome-terminal -x neuros-upgrader.sh"
 Icon=/usr/share/pixmaps/synaptic.png
 Comment[en_US]=Upgrade System to Latest Version
 GenericName[en_US]=Do Quick Upgrade of System

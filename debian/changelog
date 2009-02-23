@@ -1,6 +1,8 @@
-neuroslink-system-tools (1.10neuros1) jaunty; urgency=low
+neuroslink-system-tools (1.10neuros3) intrepid; urgency=low
 
   * Make icons appear under Other menu in gnome
+  * Fix type in Update desktop entry
+  * Fix isntall of neuroslink-version.py
 
  -- Tom Bruno <tbruno@neurostechnology.com>  Fri, 13 Feb 2009 15:57:55 -0600
 
