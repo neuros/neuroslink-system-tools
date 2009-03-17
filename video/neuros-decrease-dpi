@@ -3,7 +3,7 @@
 if ps ax | grep -v grep | grep firefox > /dev/null
 then
   ### Firefox is running - prompt then kill Firefox
-  zenity --question --title="Decrease font size" --text="To increase your font sizes, we must first close your browser.  Close Firefox now?"
+  zenity --question --title="Decrease font size" --text="To decrease your font sizes, we must first close your browser.  Close Firefox now?"
   CONFIRMFIREFOXCLOSE=$?
   if [ "$CONFIRMFIREFOXCLOSE" = "0" ]; then
     ### User confirmed - kill Firefox
