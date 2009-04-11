@@ -1,3 +1,10 @@
+neuroslink-system-tools (1.12) intrepid; urgency=low
+
+  * Add scripts to sync changes in firmware
+  * Put firmware sync scripts into upgrader scripts
+
+ -- Tom Bruno <tbruno@neurostechnology.com>  Wed, 18 Mar 2009 14:22:39 -0500
+
 neuroslink-system-tools (1.11) intrepid; urgency=low
 
   * Make icons appear under Other menu in gnome

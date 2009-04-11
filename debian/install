@@ -4,4 +4,6 @@ base/init-ramfs /etc/init.d
 base/neuros-upgrader.sh /usr/sbin
 base/neuros-user-upgrader.sh /usr/bin
 base/neuroslink-version.py /usr/bin
+base/cleanup-version.sh /usr/sbin
+base/cleanup-userhome.sh /usr/sbin
 menu/* /usr/share/applications

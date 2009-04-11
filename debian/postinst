@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ -f /etc/rcS.d/S37init-ramfs ]; then
 	rm /etc/rcS.d/S37init-ramfs
